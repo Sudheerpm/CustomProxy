@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomProxy", "CustomProxy\CustomProxy.csproj", "{3910C368-47B8-4C64-B30E-85715544700B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomProxy.Test", "CustomProxy.Test\CustomProxy.Test.csproj", "{10D2426E-8846-4861-90FB-2EE4173379F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3910C368-47B8-4C64-B30E-85715544700B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3910C368-47B8-4C64-B30E-85715544700B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3910C368-47B8-4C64-B30E-85715544700B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{3910C368-47B8-4C64-B30E-85715544700B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3910C368-47B8-4C64-B30E-85715544700B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10D2426E-8846-4861-90FB-2EE4173379F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10D2426E-8846-4861-90FB-2EE4173379F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10D2426E-8846-4861-90FB-2EE4173379F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10D2426E-8846-4861-90FB-2EE4173379F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F0E01B95-4DC5-4350-BB73-435DFB2CC8AF}
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.0\lib\NET35;packages\Unity.Interception.2.1.505.0\lib\NET35;packages\EnterpriseLibrary.Common.5.0.505.0\lib\NET35;packages\EnterpriseLibrary.Logging.5.0.505.1\lib\NET35
+	EndGlobalSection
+EndGlobal
